@@ -5,7 +5,6 @@
  *
  * Return: 0 (Succesful)
  */
-
 int main(void)
 {
 	char a;
