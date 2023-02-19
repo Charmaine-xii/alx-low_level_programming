@@ -6,17 +6,12 @@
 */
 int main(void)
 {
-	char alphabet = 'a';
+	char letter;
 
-	while (alphabet <= 'z')
-{
-	/* print the value of the variable*/
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	putchar(alphabet);
-
-	alphabet++;
-}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
