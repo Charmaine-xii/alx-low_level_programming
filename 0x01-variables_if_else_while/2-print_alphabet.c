@@ -6,10 +6,13 @@
 */
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	while (letter <= 'z')
+	{
+		putchar(letter)
+		letter++;
+	}
 
 	putchar('\n');
 
