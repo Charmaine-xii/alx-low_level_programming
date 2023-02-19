@@ -7,9 +7,10 @@
 */
 int main(void)
 {
-	char ch = 'a';
-		putchar("Lowercase English Alphabets:\n");
-	while (ch <= 'z')
-		putchar("%c", ch);
-		ch++;
+	char low;
+
+	for (char c = 'a'; c <= 'z', +cc)
+		putchar("%c ", c);
+	putchar("\n");
 	return (0);
+}
