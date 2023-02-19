@@ -6,13 +6,19 @@
 */
 int main(void)
 {
-	char letter;
+	int letter = 'a';
+	int LETTER = 'A';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (letter <= 'z')
+	{
 		putchar(letter);
-
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+		letter++;
+	}
+	while (LETTER <= 'Z')
+	{
+		putchar(LETTER);
+		LETTER++;
+	}
 
 	putchar('\n');
 
