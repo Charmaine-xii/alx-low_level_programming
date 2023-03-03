@@ -11,11 +11,11 @@ char *_strcat(char *dest, const char *src)
 	int i, j;
 
 	i = 0;
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
 	j = 0;
+
+	while (dest[i] != '\0')
+		i++;
+
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
@@ -24,5 +24,6 @@ char *_strcat(char *dest, const char *src)
 	}
 
 	dest[i] = '\0';
+
 	return (dest);
 }
