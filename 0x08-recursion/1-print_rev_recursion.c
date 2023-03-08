@@ -8,7 +8,7 @@ void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
-		_print_rev_recusion(s + 1); /* we first reverse the string */
+		_print_rev_recursion(s + 1); /* we first reverse the string */
 		_putchar(*s);		/* we print after reversing */
 	}
 }
