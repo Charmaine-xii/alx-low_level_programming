@@ -1,5 +1,5 @@
-#include main.h"
-#include <stdio.h>
+#include "main.h"
+#include <string.h>
 
 /**
 * test_palindrome - use cases to find palindrome
