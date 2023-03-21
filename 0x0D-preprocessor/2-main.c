@@ -2,7 +2,7 @@
 
 int main()
 {
-	_putchar('Name of source file: %s\n', __FILE__);
+	_printf("Name of source file: %s\n", __FILE__);
 
 	return 0;
 }
