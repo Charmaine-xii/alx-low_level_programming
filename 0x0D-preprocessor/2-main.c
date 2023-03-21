@@ -1,7 +1,7 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int main(void)
 {
 	_putchar('Name of source file: %s\n', __FILE__);
 
