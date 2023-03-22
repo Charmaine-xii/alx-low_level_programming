@@ -1,6 +1,5 @@
 #include "dog.h"
 #include <stdlib.h>
-
 /**
  * init_dog - initialises a dog using the dog struct in header
  * @d: pointer to where dog is stored
@@ -8,7 +7,6 @@
  * @age: float of age of dog
  * @owner: owner of the dog
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
