@@ -1,0 +1,1 @@
+This directory contains function pointer tasks in C. Completeing this task taught me what function pointers and how to use them, what exactly a function pointer holds and where the function pointer points to in the virtual memory.
