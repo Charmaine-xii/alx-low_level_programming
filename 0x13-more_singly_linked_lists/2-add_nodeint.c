@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the beginning of a listint_t list
+ * add_nodeint - adds a new node at the beginning of a listint_t list
  * @head: pointer to the head element
  * @n: integer value to be stored inside the new element
  *
- * Description: does malloc for sizeof a listint_t element to get a new element,
+ * Description: malloc for sizeof a listint_t element to get a new element
  *				then assigns integer values
  *				then assigns next to head
  *
