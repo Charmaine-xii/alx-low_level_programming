@@ -14,14 +14,14 @@
 
     while (slow != NULL && fast != NULL && fast->next != NULL)
     {
-        printf("[%p] %d\n", (void *)slow, slow->n)
+        printf("[%p] %d\n", (void *)slow, slow->n);
         slow = slow->next;
         fast = fast->next->next;
         count++;
 
         if (slow == fast)
         {
-            printf("[%p] %d\n", (Void *)slow, slow->n);
+            printf("[%p] %d\n", (void *)slow, slow->n);
             printf("-> [%p] %d\n", (void *)fast->next,fast->next->n);
             exit(98);
         }
@@ -36,4 +36,4 @@
 
  return (count);
 
- }
+}
