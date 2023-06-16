@@ -4,7 +4,7 @@
  * insert_dnodeint_at_index - Inserts a new node at a given position
  * in dlistint_t list.
  *
- * @head: Pointer to the first node of the list.
+ * @h: Pointer to the first node of the list.
  * @idx: Index of the list where the new node should be added (starting at 0).
  * @n: Value to be assigned to the new node.
  *
